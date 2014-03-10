@@ -2,12 +2,11 @@
   clear: both;
 }
 
-.wrap {
-  width: 980px;
-  margin: 0 auto;
-  font-family: 'Source Sans Pro';
-  font-weight: 300;
-  color: #333333;
+i {
+  width: 20px;
+  margin-right: 10px;
+  text-align: center;
+  color: orange;
 }
 
 .header {
@@ -32,13 +31,14 @@
   margin: 0;
   line-height: 60px;
   font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .text p {
   margin: 0;
   line-height: 25px;
-  font-size: 16px;
-  margin-left: 5px;
+  font-size: 18px;
 }
 
 .text .email {
@@ -48,21 +48,22 @@
 
 .border {
   border-bottom: solid 1px lightgray;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 
 .content h3 {
   font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
-.content p {
+.content .intro {
   font-size: 18px;
+  margin-bottom: 50px;
 }
 
 .projects .block {
   display: inline-block;
-  width: 210px;
-  margin: 10px;
   background-color: lightgray;
 }
 
