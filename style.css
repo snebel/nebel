@@ -6,7 +6,7 @@ i {
   width: 20px;
   margin-right: 10px;
   text-align: center;
-  color: orange;
+  color: lightgray;
 }
 
 .header {
@@ -59,6 +59,7 @@ i {
 
 .content .intro {
   font-size: 18px;
+  line-height: 22px;
   margin-bottom: 50px;
 }
 
@@ -67,6 +68,17 @@ i {
   background-color: lightgray;
 }
 
-.projects h4 {
+h4 {
   margin: 0;
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+p.description {
+  margin: 0;
+  padding-top: 5px;
+  font-size: 14px;
+  padding-left: 31px;
+  color: darkgray;
 }
